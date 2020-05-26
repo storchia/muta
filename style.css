@@ -4563,7 +4563,7 @@ body:not(.device-touch):not(.device-sm):not(.device-xs) .portfolio-overlay a {
 
 .portfolio-overlay .portfolio-desc span {
 	margin-top: 7px;
-	color: #DDD !important;
+	color: #7e7e7e !important;
 }
 
 .portfolio-overlay .portfolio-desc span a {
