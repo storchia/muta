@@ -27,7 +27,7 @@ require 'phpmailer/src/SMTP.php';
 $toemails = array();
 
 $toemails[] = array(
-				'email' => 'your-email@website.com', // Your Email Address
+				'email' => 'test@somosmuta.com', // Your Email Address
 				'name' => 'Your Name' // Your Name
 			);
 
@@ -37,7 +37,7 @@ $toemails[] = array(
 ---------------------------------------------------*/
 
 $fromemail = array(
-				'email' => 'no-reply@website.com', // Company's Email Address (preferably currently used Domain Name)
+				'email' => 'test@somosmuta.com', // Company's Email Address (preferably currently used Domain Name)
 				'name' => 'Company Name' // Company Name
 			);
 
@@ -58,6 +58,14 @@ $mail = new PHPMailer();
 
 /* Add your SMTP Codes after this Line */
 
+$mail->IsSMTP();
+$mail->Host = "c1821137.ferozo.com";
+$mail->SMTPDebug = 0;
+$mail->SMTPAuth = true;
+$mail->SMTPSecure = "ssl";
+$mail->Port = 465;
+$mail->Username = "test@somosmuta.com";
+$mail->Password = "3*3ul*t1zS";
 
 // End of SMTP
 
