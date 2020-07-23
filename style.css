@@ -10831,7 +10831,7 @@ blockquote.float-right {
 	content: "";
 	display: block;
 	opacity: 0.6;
-	background-color: #000;
+	background-color: #0000;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 	border-radius: 6px;
@@ -12099,7 +12099,7 @@ button.toast-close-button {
 .footer-widgets-wrap .col_five_sixth { margin-bottom: 0; }
 
 #copyrights {
-	padding: 40px 0;
+	padding-top: 40px;
 	background-color: #DDD;
 	font-size: 14px;
 	line-height: 1.8;
@@ -12145,6 +12145,10 @@ button.toast-close-button {
 	margin-bottom: 30px;
 }
 
+.footer-email {
+	margin-right: 0px!important;
+	font-size: 15px!important
+}
 
 /* ----------------------------------------------------------------
 	Widgets
@@ -13935,4 +13939,6 @@ body:not(.no-transition) #wrapper,
 	text-shadow: none !important;
 }
 
-
+.none {
+	display: none;
+}

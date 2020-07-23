@@ -75,10 +75,10 @@ $mail->Password = "3*3ul*t1zS";
 ---------------------------------------------------*/
 
 $message = array(
-	'success'			=> 'We have <strong>successfully</strong> received your Message and will get Back to you as soon as possible.',
-	'error'				=> 'Email <strong>could not</strong> be sent due to some Unexpected Error. Please Try Again later.',
+	'success'			=> '<strong>¡Gracias por escribirnos!</strong> En breve nos pondremos en contacto para empezar a co-crear juntos.',
+	'error'				=> 'Su mensaje <strong>no pudo</strong> ser enviado por un error inesperado. Por favor intente nuevamente.',
 	'error_bot'			=> 'Bot Detected! Form could not be processed! Please Try Again!',
-	'error_unexpected'	=> 'An <strong>unexpected error</strong> occured. Please Try Again later.',
+	'error_unexpected'	=> 'Encontramos un<strong> error </strong> inesperado!. Por favor intente nuevamente.',
 	'recaptcha_invalid'	=> 'Captcha not Validated! Please Try Again!',
 	'recaptcha_error'	=> 'Captcha not Submitted! Please Try Again.'
 );
