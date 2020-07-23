@@ -10830,8 +10830,6 @@ blockquote.float-right {
 	height: 100%;
 	content: "";
 	display: block;
-	opacity: 0.6;
-	background-color: #0000;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 	border-radius: 6px;
