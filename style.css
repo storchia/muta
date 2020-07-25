@@ -2832,6 +2832,9 @@ body.side-panel-open:not(.device-xs):not(.device-sm):not(.device-md) .body-overl
 	Slider
 -----------------------------------------------------------------*/
 
+.bottom-slider {
+	padding-bottom: 100px;
+}
 
 .slider-element {
 	position: relative;
@@ -11147,6 +11150,10 @@ form .col_five_sixth { margin-bottom: 25px; }
 	Contact Form
 -----------------------------------------------------------------*/
 
+#contact-form {
+    padding-top: 60px;
+    padding-bottom: 0px;
+  }
 
 #contact-form-overlay,
 #contact-form-overlay-mini {
